@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>A free cutness calculator</title>
+	<link rel="stylesheet" href="bonus.css">
+</head>
+<body>
+<h2 id="firsth">Since we always fight who is the cutest, I decided to make a very reliable, 100% accurate cutness calculator, all you have to do is type a name below and it will calculate how cute they are. Try it! </h2>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 id="secondh">Please enter your name:</h2>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<input  id="input" type="text" name="name">
+<br>
+<br>
+<br>
+<input id="button" type="submit" name="button" value="Calculate" onclick="myFunction()">
+<br>
+<br>
+<br>
+
+
+
+ <script>
+      
+ 
+ function myFunction() {
+        var x = document.getElementById("input").value;
+        var y = Math.floor(Math.random() * 10);
+
+
+
+
+		if (x =="") {
+   		document.getElementById("output").innerHTML = "";
+   		}
+        else if (x == "byan" || x == "Byan" || x == "BYAN") {
+   		document.getElementById("output").innerHTML = "This person is 100000% cute, the cutest to ever exist, no person is even close to how cute this person is. 100% the cutest person alive.";
+        }
+
+   		else{	
+
+   		if (y == 0) {
+document.getElementById("output").innerHTML = "this person is about 10% cute";
+   		}
+   		if (y == 1) {
+document.getElementById("output").innerHTML = "Calculations show 23% cute";
+   		}
+   		if (y == 2) {
+document.getElementById("output").innerHTML = "about 39% cute";
+   		}
+   		if (y == 3) {
+document.getElementById("output").innerHTML = "I would say 44% cute";
+   		}
+   		if (y == 4) {
+document.getElementById("output").innerHTML = "about 56% cute";
+   		}
+   		if (y == 5) {
+document.getElementById("output").innerHTML = "this person is 82% cute";
+   		}
+   		if (y == 6) {
+document.getElementById("output").innerHTML = "96.2% cute";
+   		}
+   		if (y == 7) {
+document.getElementById("output").innerHTML = "mid, 53% cute";
+   		}
+   		if (y == 8) {
+document.getElementById("output").innerHTML = "11% cute, try harder";
+   		}
+   		if (y == 9) {
+document.getElementById("output").innerHTML = "95% cute, not bad";
+   		}
+
+
+
+
+
+
+
+
+   		}
+   		
+    }
+</script>
+
+<h2 id="output" class="output"></h2>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="index.html"><button>Go back</button></a>
+</body>
+</html>
+

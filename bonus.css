@@ -1,0 +1,75 @@
+body {
+background-image: url("wallpaper.jpg");
+font-family: 'Courier New';
+}
+
+#firsth {
+line-height: 2;
+color: white;
+position: absolute;
+text-align: center;
+left: 565px;
+width: 800px;
+height: 120px;
+}
+
+#secondh {
+line-height: 2;
+color: white;
+position: absolute;
+text-align: center;
+left: 565px;
+width: 800px;
+height: 120px;
+}
+
+#input {
+color: black;
+position: absolute;
+text-align: center;
+left:850px;
+width: 200px;
+height: 30px;
+background-color: pink;
+border: none;
+}
+
+.output{
+
+line-height: 2;
+color: white;
+position: absolute;
+text-align: center;
+left: 565px;
+width: 800px;
+height: 120px;
+}
+
+#button{
+color: black;
+position: absolute;
+text-align: center;
+left:878px;
+width: 140px;
+height: 30px;
+background-color: pink;
+border: 2px solid white;
+color: white;
+font-weight: bold;
+font-size: 20px;
+}
+
+button {
+font-weight: bold;
+font-size: 22px;
+padding: 15px 32px;
+text-align: center;
+position: absolute;
+text-align: center;
+left: 850px;
+border: none;
+color: white;
+border: 4px solid white;
+background-color: #f25278;
+width: 180px;
+}

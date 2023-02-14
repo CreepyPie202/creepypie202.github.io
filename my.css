@@ -1,0 +1,49 @@
+body {
+background-image: url("wallpaper.jpg");
+font-family: 'Courier New';
+}
+
+#txt1 {
+color: white;
+text-align: center;
+}
+
+#txt2 {
+    line-height: 1.9;
+    color: white;
+ position: absolute;
+ text-align: center;
+ left: 565px;
+  width: 800px;
+  height: 120px;
+}
+
+#firstbutton{
+font-weight: bold;
+font-size: 22px;
+padding: 15px 32px;
+text-align: center;
+position: absolute;
+text-align: center;
+left: 700px;
+border: none;
+color: white;
+border: 4px solid white;
+background-color: #f25278;
+width: 197px;
+  }
+
+#thirdbutton{
+font-weight: bold;
+font-size: 22px;
+padding: 15px 32px;
+text-align: center;
+position: absolute;
+text-align: center;
+left: 1040px;
+border: none;
+color: white;
+border: 4px solid white;
+background-color: #f25278;
+width: 180px;
+  }
