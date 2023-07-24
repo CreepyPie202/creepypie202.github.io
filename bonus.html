@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>A free cutness calculator</title>
-	<link rel="stylesheet" href="bonus.css">
+	<link rel="stylesheet" href="web.css">
 </head>
 <body>
 <h2 id="firsth">Since we always fight who is the cutest, I decided to make a very reliable, 100% accurate cutness calculator, all you have to do is type a name below and it will calculate how cute they are. Try it! </h2>
@@ -48,7 +48,7 @@
  
  function myFunction() {
         var x = document.getElementById("input").value;
-        var y = Math.floor(Math.random() * 10);
+        var y = Math.floor(Math.random() * 20);
 
 
 
@@ -56,7 +56,7 @@
 		if (x =="") {
    		document.getElementById("output").innerHTML = "";
    		}
-        else if (x == "byan" || x == "Byan" || x == "BYAN") {
+        else if (x == "byan" || x == "Byan" || x == "BYAN" || x == "bobo" || x == "BOBO" || x == "bebe" || x == "BEBE" || x == "Bebe" || x == "Bobo" || x == "BOBE" || x == "bobe" || x == "Bobe") {
    		document.getElementById("output").innerHTML = "This person is 100000% cute, the cutest to ever exist, no person is even close to how cute this person is. 100% the cutest person alive.";
         }
 
@@ -92,13 +92,36 @@ document.getElementById("output").innerHTML = "11% cute, try harder";
    		if (y == 9) {
 document.getElementById("output").innerHTML = "95% cute, not bad";
    		}
-
-
-
-
-
-
-
+        if (y == 10) {
+document.getElementById("output").innerHTML = "ewwwww, Zero%";
+        }
+        if (y == 11) {
+document.getElementById("output").innerHTML = "YUCK!, -95%";
+        }
+        if (y == 12) {
+document.getElementById("output").innerHTML = "How dare you, 1%";
+        }
+        if (y == 13) {
+document.getElementById("output").innerHTML = "Disgusting, -99999999%";
+        }
+        if (y == 14) {
+document.getElementById("output").innerHTML = "The website cant handle how ugly you are, -9999999999999999999999999999999%";
+        }
+        if (y == 15) {
+document.getElementById("output").innerHTML = "60% you can do better";
+        }
+        if (y == 16) {
+document.getElementById("output").innerHTML = "75%, not bad";
+        }
+        if (y == 17) {
+document.getElementById("output").innerHTML = "40% you can manage (survivable)";
+        }
+        if (y == 18) {
+document.getElementById("output").innerHTML = "1% youre gonna die alone";
+        }
+        if (y == 19) {
+document.getElementById("output").innerHTML = "30% at least your mom likes you (maybe)";
+        }
 
    		}
    		
